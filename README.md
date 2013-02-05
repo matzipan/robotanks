@@ -29,6 +29,6 @@ Socketserver: jWebSocket server with added plugins to communicate with Robocode
 
 ## Links for running and installing
 
-Zend Server Community Edition: http://www.zend.com/en/products/server-ce/index
-Jdk 1.5: http://www.oracle.com/technetwork/java/javase/downloads/index-jdk5-jsp-142662.html
-JDT Eclipse: http://www.eclipse.org/jdt/
+* Zend Server Community Edition: http://www.zend.com/en/products/server-ce/index
+* Jdk 1.5: http://www.oracle.com/technetwork/java/javase/downloads/index-jdk5-jsp-142662.html
+* JDT Eclipse: http://www.eclipse.org/jdt/
