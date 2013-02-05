@@ -2,7 +2,12 @@
 Robotanks is a fork of the popular Robocode game. Robotanks adds an extra Web-based layer on top of Robocode, allowing multiple users to battle each other and view live battles. This project was developed by myself, Zisu Andrei, along with Tache Razvan and Fleseriu Cristian, as we participated in the national phase of the Infomatrix challenge. 
 
 # Further development 
-Unfortunately, the project is not maintained anymore, due to the lack of exterior interest. However, if you are interested in working on the project, let me know.
+Unfortunately, the project is not maintained anymore, due to the lack of exterior interest. However, if you are interested in working on the project, let me know. Some possible todos:
+
+* Get rid of nasty PHP as a web front-end
+* Make robot editing and compilation through front-end possible
+* Match creator
+* Implement leagues
 
 # License
 
