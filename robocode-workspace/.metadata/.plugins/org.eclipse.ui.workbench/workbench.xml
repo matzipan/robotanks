@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="14" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="50" y="50">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1300979433699" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleView.java" partName="BattleView.java" path="C:/Users/Andrei/Desktop/robocode-workspace2/robocode.ui/src/main/java/net/sf/robocode/ui/battleview/BattleView.java" title="BattleView.java" tooltip="robocode.ui/src/main/java/net/sf/robocode/ui/battleview/BattleView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robocode.ui/src/main/java/net/sf/robocode/ui/battleview/BattleView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4273" selectionTopPixel="1632"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RobocodeEditor.java" partName="RobocodeEditor.java" path="C:/Users/Andrei/Desktop/robocode-workspace2/robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeEditor.java" title="RobocodeEditor.java" tooltip="robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeEditor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeEditor.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1782" selectionTopPixel="51"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleListener.java" partName="BattleListener.java" path="C:/Users/Andrei/Desktop/robocode-workspace2/robocode.ui/src/main/java/com/robotanks/listener/BattleListener.java" title="BattleListener.java" tooltip="robocode.ui/src/main/java/com/robotanks/listener/BattleListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robocode.ui/src/main/java/com/robotanks/listener/BattleListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4945" selectionTopPixel="1683"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurnSnapshot.java" partName="TurnSnapshot.java" path="C:/Users/Andrei/Desktop/robocode-workspace2/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/TurnSnapshot.java" title="TurnSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/TurnSnapshot.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/TurnSnapshot.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5533" selectionTopPixel="2762"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RobotSnapshot.java" partName="RobotSnapshot.java" path="C:/Users/Andrei/Desktop/robocode-workspace2/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java" title="RobotSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1727" selectionTopPixel="255"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScoreSnapshot.java" partName="ScoreSnapshot.java" path="C:/Users/Andrei/Desktop/robocode-workspace2/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/ScoreSnapshot.java" title="ScoreSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/ScoreSnapshot.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/ScoreSnapshot.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1103" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BulletSnapshot.java" partName="BulletSnapshot.java" path="C:/Users/Andrei/Desktop/robocode-workspace2/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/BulletSnapshot.java" title="BulletSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/BulletSnapshot.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/BulletSnapshot.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1300" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="344" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="496"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@135572b" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.20643806" ratioLeft="295" ratioRight="1134" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6156915" ratioLeft="463" ratioRight="289" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@8d1749" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.49896908" ratioLeft="242" ratioRight="243" relationship="4" relative="org.eclipse.ui.internal.ViewStack@8d1749">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.ui/src/main/java/net/sf/robocode/ui/battleview/BattleView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeCompilerFactory.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.ui/src/main/java/com/robotanks/listener/BattleListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/TurnSnapshot.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.battle/src/main/java/net/sf/robocode/battle/Battle.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/ScoreSnapshot.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/BulletSnapshot.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeEditor.java"/>
+</editors>
+<item historyLabel="BattleListener.java" index="2">
+<position info="not_deleted" x="2093" y="0"/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="1463" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position info="not_deleted" x="2093" y="0"/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5223" y="537"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5560" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="3961" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5533" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5391" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5391" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5391" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="Battle.java" index="4">
+<position info="not_deleted" x="7214" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5533" y="0"/>
+</item>
+<item historyLabel="BattleView.java" index="0">
+<position info="not_deleted" x="4273" y="0"/>
+</item>
+<item historyLabel="RobocodeCompilerFactory.java" index="1">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="RobocodeCompilerFactory.java" index="1">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="RobotSnapshot.java" index="5">
+<position info="not_deleted" x="82" y="0"/>
+</item>
+<item historyLabel="ScoreSnapshot.java" index="6">
+<position info="not_deleted" x="82" y="0"/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5533" y="0"/>
+</item>
+<item historyLabel="BulletSnapshot.java" index="7">
+<position info="not_deleted" x="1300" y="0"/>
+</item>
+<item historyLabel="RobotSnapshot.java" index="5">
+<position info="not_deleted" x="9300" y="1955"/>
+</item>
+<item historyLabel="TurnSnapshot.java" index="3">
+<position info="not_deleted" x="5533" y="0"/>
+</item>
+<item historyLabel="RobocodeEditor.java" index="8">
+<position info="not_deleted" x="1782" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position info="not_deleted" x="4915" y="13"/>
+</item>
+<item historyLabel="ScoreSnapshot.java" index="6">
+<position info="not_deleted" x="1103" y="0"/>
+</item>
+<item historyLabel="RobotSnapshot.java" index="5">
+<position info="not_deleted" x="2092" y="0"/>
+</item>
+<item historyLabel="RobocodeEditor.java" index="8">
+<position info="not_deleted" x="1782" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="RobotSnapshot.java" index="5">
+<position info="not_deleted" x="1729" y="136"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position info="not_deleted" x="5000" y="0"/>
+</item>
+<item historyLabel="RobotSnapshot.java" index="5">
+<position info="not_deleted" x="1715" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position/>
+</item>
+<item historyLabel="RobotSnapshot.java" index="5">
+<position info="not_deleted" x="1727" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position info="not_deleted" x="5932" y="0"/>
+</item>
+<item historyLabel="BattleListener.java" index="2">
+<position info="not_deleted" x="4633" y="0"/>
+</item>
+<item active="true" historyLabel="BattleListener.java" index="2">
+<position info="not_deleted" x="2006" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BulletSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/BulletSnapshot.java">
+<persistable path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/BulletSnapshot.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScoreSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/ScoreSnapshot.java">
+<persistable path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/ScoreSnapshot.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RobotSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java">
+<persistable path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/RobotSnapshot.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Battle.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/Battle.java">
+<persistable path="/robocode.battle/src/main/java/net/sf/robocode/battle/Battle.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurnSnapshot.java" tooltip="robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/TurnSnapshot.java">
+<persistable path="/robocode.battle/src/main/java/net/sf/robocode/battle/snapshot/TurnSnapshot.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurnEndedEvent.java" tooltip="robocode.api/src/main/java/robocode/control/events/TurnEndedEvent.java">
+<persistable path="/robocode.api/src/main/java/robocode/control/events/TurnEndedEvent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ITurnSnapshot.java" tooltip="robocode.api/src/main/java/robocode/control/snapshot/ITurnSnapshot.java">
+<persistable path="/robocode.api/src/main/java/robocode/control/snapshot/ITurnSnapshot.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BattleListener.java" tooltip="robocode.ui/src/main/java/com/robotanks/listener/BattleListener.java">
+<persistable path="/robocode.ui/src/main/java/com/robotanks/listener/BattleListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Container.java" tooltip="robocode.core/src/main/java/net/sf/robocode/core/Container.java">
+<persistable path="/robocode.core/src/main/java/net/sf/robocode/core/Container.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WindowManager.java" tooltip="robocode.ui/src/main/java/net/sf/robocode/ui/WindowManager.java">
+<persistable path="/robocode.ui/src/main/java/net/sf/robocode/ui/WindowManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Module.java" tooltip="robocode.ui/src/main/java/net/sf/robocode/ui/Module.java">
+<persistable path="/robocode.ui/src/main/java/net/sf/robocode/ui/Module.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RobocodeCompilerFactory.java" tooltip="robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeCompilerFactory.java">
+<persistable path="/robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeCompilerFactory.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Module.java" tooltip="robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/Module.java">
+<persistable path="/robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/Module.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RobocodeEditor.java" tooltip="robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeEditor.java">
+<persistable path="/robocode.ui.editor/src/main/java/net/sf/robocode/ui/editor/RobocodeEditor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IRobocodeEditor.java" tooltip="robocode.ui/src/main/java/net/sf/robocode/ui/editor/IRobocodeEditor.java">
+<persistable path="/robocode.ui/src/main/java/net/sf/robocode/ui/editor/IRobocodeEditor.java"/>
+</file>
+</mruList>
+</workbench>

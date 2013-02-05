@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" skipped="0" tests="1" time="0.355" failures="0" name="net.sf.robocode.test.robots.TestInteruptibleEvent">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="C:\Sun\SDK\jdk\jre\bin" name="sun.boot.library.path"/>
+    <property value="1.5.0_09-b03" name="java.vm.version"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value=";" name="path.separator"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="US" name="user.country"/>
+    <property value="" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests" name="user.dir"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests.robots/target/classes" name="ROBOTPATH"/>
+    <property value="1.5.0_09-b03" name="java.runtime.version"/>
+    <property value="target/test-classes" name="WORKINGDIRECTORY"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests" name="basedir"/>
+    <property value="C:\Sun\SDK\jdk\jre\lib\endorsed" name="java.endorsed.dirs"/>
+    <property value="x86" name="os.arch"/>
+    <property value="C:\Users\Andrei\AppData\Local\Temp\surefirebooter45608.jar" name="surefire.real.class.path"/>
+    <property value="C:\Users\Andrei\AppData\Local\Temp\" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="" name="user.variant"/>
+    <property value="Windows NT (unknown)" name="os.name"/>
+    <property value="true" name="EXPERIMENTAL"/>
+    <property value="Cp1252" name="sun.jnu.encoding"/>
+    <property value="C:\Sun\SDK\jdk\jre\bin;.;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\PROGRA~1\Borland\CBUILD~1\Bin;C:\PROGRA~1\Borland\CBUILD~1\Projects\Bpl;C:\Program Files\JavaFX\javafx-sdk1.3\bin;C:\Program Files\JavaFX\javafx-sdk1.3\emulator\bin;C:\Program Files\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;D:\wamp\bin\mysql\mysql5.1.36\bin;D:\wamp\bin\php\php5.3.0;C:\Program Files\Ruby\bin\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;&quot;D:\Zend\ZendServer\bin&quot;;&quot;D:\Zend\ZendServer\share\ZendFramework\bin&quot;;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Windows Live\Shared;C:\Program Files\TortoiseHg\;C:\Program Files\TortoiseSVN\bin;C:\Sun\SDK\bin" name="java.library.path"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests\target\test-classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests\target\classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.api\target\robocode.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests.robots\target\robocode.tests.robots-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\junit\junit\4.5\junit-4.5.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\robocode.core-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\org\picocontainer\picocontainer\2.6\picocontainer-2.6.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.samples\target\robocode.samples-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.host\target\robocode.host-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.battle\target\robocode.battle-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.repository\target\robocode.repository-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\net\sf\robocode\codesize\1.1\codesize-1.1.jar;" name="surefire.test.class.path"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests\target\test-classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests\target\classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.api\target\robocode.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests.robots\target\robocode.tests.robots-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\junit\junit\4.5\junit-4.5.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\robocode.core-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\org\picocontainer\picocontainer\2.6\picocontainer-2.6.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.samples\target\robocode.samples-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.host\target\robocode.host-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.battle\target\robocode.battle-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.repository\target\robocode.repository-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\net\sf\robocode\codesize\1.1\codesize-1.1.jar;" name="robocode.class.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="6.1" name="os.version"/>
+    <property value="C:\Users\Andrei" name="user.home"/>
+    <property value="GMT" name="user.timezone"/>
+    <property value="sun.awt.windows.WPrinterJob" name="java.awt.printerjob"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="Cp1252" name="file.encoding"/>
+    <property value="Andrei" name="user.name"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests\target\test-classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests\target\classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.api\target\robocode.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.tests.robots\target\robocode.tests.robots-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\junit\junit\4.5\junit-4.5.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\robocode.core-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\org\picocontainer\picocontainer\2.6\picocontainer-2.6.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.samples\target\robocode.samples-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.host\target\robocode.host-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.battle\target\robocode.battle-1.7.2.2.jar;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.repository\target\robocode.repository-1.7.2.2.jar;C:\Users\Andrei\.m2\repository\net\sf\robocode\codesize\1.1\codesize-1.1.jar;" name="java.class.path"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="C:\Sun\SDK\jdk\jre" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="en" name="user.language"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="1.5.0_09" name="java.version"/>
+    <property value="C:\Sun\SDK\jdk\jre\lib\ext" name="java.ext.dirs"/>
+    <property value="C:\Sun\SDK\jdk\jre\lib\rt.jar;C:\Sun\SDK\jdk\jre\lib\i18n.jar;C:\Sun\SDK\jdk\jre\lib\sunrsasign.jar;C:\Sun\SDK\jdk\jre\lib\jsse.jar;C:\Sun\SDK\jdk\jre\lib\jce.jar;C:\Sun\SDK\jdk\jre\lib\charsets.jar;C:\Sun\SDK\jdk\jre\classes" name="sun.boot.class.path"/>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="C:\Users\Andrei\.m2\repository" name="localRepository"/>
+    <property value="\" name="file.separator"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="true" name="TESTING"/>
+    <property value="windows" name="sun.desktop"/>
+    <property value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="net.sf.robocode.test.robots.TestInteruptibleEvent" time="0.351" name="run">
+    <error type="java.lang.Error" message="Unresolved compilation problems: 
+	The constructor BaseBattle(ISettingsManager, IBattleManager, BattleEventDispatcher) refers to the missing type BattleEventDispatcher
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+">java.lang.Error: Unresolved compilation problems: 
+	The constructor BaseBattle(ISettingsManager, IBattleManager, BattleEventDispatcher) refers to the missing type BattleEventDispatcher
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+	BattleEventDispatcher cannot be resolved to a type
+
+	at net.sf.robocode.battle.Battle.&lt;init&gt;(Battle.java:171)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:494)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:157)
+	at org.picocontainer.injectors.ConstructorInjector.instantiate(ConstructorInjector.java:222)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:195)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:284)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:218)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:574)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:535)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:515)
+	at org.picocontainer.classname.DefaultClassLoadingPicoContainer.getComponent(DefaultClassLoadingPicoContainer.java:186)
+	at org.picocontainer.containers.AbstractDelegatingPicoContainer.getComponent(AbstractDelegatingPicoContainer.java:46)
+	at org.picocontainer.classname.DefaultClassLoadingPicoContainer$AsPropertiesPicoContainer.getComponent(DefaultClassLoadingPicoContainer.java:461)
+	at net.sf.robocode.core.Container.createComponent(Container.java:269)
+	at net.sf.robocode.battle.BattleManager.startNewBattleImpl(BattleManager.java:174)
+	at net.sf.robocode.battle.BattleManager.startNewBattle(BattleManager.java:146)
+	at robocode.control.RobocodeEngine.runBattle(RobocodeEngine.java:269)
+	at net.sf.robocode.test.helpers.RobocodeTestBed.runBattle(RobocodeTestBed.java:198)
+	at net.sf.robocode.test.helpers.RobocodeTestBed.run(RobocodeTestBed.java:173)
+	at net.sf.robocode.test.robots.TestInteruptibleEvent.run(TestInteruptibleEvent.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:73)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:46)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:62)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+</error>
+  </testcase>
+</testsuite>

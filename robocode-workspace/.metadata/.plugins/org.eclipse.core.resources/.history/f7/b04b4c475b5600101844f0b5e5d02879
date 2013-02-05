@@ -1,0 +1,281 @@
+package com.robotanks.listener;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Dictionary;
+
+import net.sf.robocode.io.Logger;
+import net.sf.robocode.peer.DebugProperty;
+import net.sf.robocode.peer.ExecCommands;
+import net.sf.robocode.serialization.IXmlSerializable;
+import net.sf.robocode.serialization.XmlWriter;
+import net.sf.robocode.ui.IWindowManager;
+import net.sf.robocode.ui.IWindowManagerExt;
+import net.sf.robocode.ui.WindowManager;
+import robocode.control.events.BattleAdaptor;
+import robocode.control.events.BattleCompletedEvent;
+import robocode.control.events.BattleErrorEvent;
+import robocode.control.events.BattleFinishedEvent;
+import robocode.control.events.BattleMessageEvent;
+import robocode.control.events.BattlePausedEvent;
+import robocode.control.events.BattleResumedEvent;
+import robocode.control.events.BattleStartedEvent;
+import robocode.control.events.RoundEndedEvent;
+import robocode.control.events.RoundStartedEvent;
+import robocode.control.events.TurnEndedEvent;
+import robocode.control.events.TurnStartedEvent;
+import robocode.control.snapshot.IBulletSnapshot;
+import robocode.control.snapshot.IRobotSnapshot;
+import robocode.control.snapshot.ITurnSnapshot;
+import net.sf.robocode.battle.snapshot.BulletSnapshot;
+import net.sf.robocode.battle.snapshot.RobotSnapshot;
+import net.sf.robocode.battle.snapshot.ScoreSnapshot;
+import net.sf.robocode.battle.snapshot.TurnSnapshot;
+
+
+public class BattleListener extends BattleAdaptor {
+	private EchoServer server;
+	private ITurnSnapshot lastSnapshot;
+	
+	 public BattleListener() {
+		 //windowManager.addBattleListener(this);
+		 server = new EchoServer();
+
+		 System.out.println("Loaded com.robotanks.listener");
+
+	 }
+
+	 @Override
+	 public void onTurnEnded(final TurnEndedEvent event) {
+		 if (event.getTurnSnapshot() == null) {
+				//repaint();
+			 	//send null snapshot
+			} else {
+				//update(event.getTurnSnapshot());
+				lastSnapshot = event.getTurnSnapshot();		
+			}
+		}
+	 @Override
+	 public void onRoundStarted(final RoundStartedEvent event) {
+			
+		}
+
+	 @Override
+		public void onBattleStarted(final BattleStartedEvent event) {
+			
+		}
+@Override
+		public void onBattleFinished(final BattleFinishedEvent event) {
+			
+		}
+@Override
+		public void onBattleCompleted(final BattleCompletedEvent event) {
+			
+		}
+@Override
+		public void onRoundEnded(final RoundEndedEvent event) {
+			
+		}
+@Override
+		public void onBattlePaused(final BattlePausedEvent event) {
+			
+		}
+@Override
+		public void onBattleResumed(final BattleResumedEvent event) {
+			
+		}
+@Override
+		public void onBattleMessage(final BattleMessageEvent event) {
+		
+		}
+@Override
+		public void onBattleError(final BattleErrorEvent event) {
+			
+		}
+@Override
+		public void onTurnStarted(TurnStartedEvent event) {
+			
+		}
+
+
+	
+	public class EchoServer {
+	    ServerSocket m_ServerSocket;
+
+		public EchoServer() {
+	    	System.out.println("Creating socket");
+			try {
+				m_ServerSocket = new ServerSocket(1234);
+			    Thread ServerThread =new Thread(new ClientServiceThread(m_ServerSocket));
+			    ServerThread.setDaemon(true);
+			    ServerThread.start();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		  }
+
+		class ClientServiceThread implements Runnable {
+			  Socket clientSocket;
+			  ServerSocket serverSocket;
+			  int clientID = 0;
+			  boolean running = true;
+	
+			  ClientServiceThread(ServerSocket s) {
+				  serverSocket=s;
+			  }
+	
+			  public void run() {
+			      try {
+					while(true) {
+						System.out.println("Server socket waiting connection");
+
+						clientSocket = serverSocket.accept();
+
+						System.out.println("Accepted Client : ID - " + clientID + " : Address - " + clientSocket.getInetAddress().getHostName());
+						
+						running=true;
+							
+				      BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+				      PrintWriter out = new PrintWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
+
+				      while (running) {
+				    	  String text=null;
+				    	  if(lastSnapshot!=null) {
+				    		  final StringWriter writer = new StringWriter();
+				    		  final XmlWriter xmlWriter = new XmlWriter(writer, true);
+				    		  Dictionary<String, Object> options = null; 
+				    		  
+				    		  IRobotSnapshot[] x = lastSnapshot.getRobots();
+				    		  xmlWriter.startElement("robots"); {
+			    					for (RobotSnapshot r : x) {
+			    						writer.startElement("robot"); {
+			    							final Object details = options == null ? null : options.get("skipDetails");
+			    								
+			    							xmlWriter.writeAttribute("vsName", r.veryShortName);
+			    							writer.writeAttribute("state", state.toString());
+			    							writer.writeAttribute("energy", energy);
+			    							writer.writeAttribute("x", x);
+			    							writer.writeAttribute("y", y);
+			    							writer.writeAttribute("bodyHeading", bodyHeading);
+			    							writer.writeAttribute("gunHeading", gunHeading);
+			    							writer.writeAttribute("radarHeading", radarHeading);
+			    							writer.writeAttribute("gunHeat", gunHeat);
+			    							writer.writeAttribute("velocity", velocity);
+			    							writer.writeAttribute("teamName", teamName);
+			    							if (details == null) {
+			    								writer.writeAttribute("name", name);
+			    								writer.writeAttribute("sName", shortName);
+			    								if (isDroid) {
+			    									writer.writeAttribute("isDroid", true);
+			    								}
+			    								if (bodyColor != ExecCommands.defaultBodyColor) {
+			    									writer.writeAttribute("bodyColor", Integer.toHexString(bodyColor).toUpperCase());
+			    								}
+			    								if (gunColor != ExecCommands.defaultGunColor) {
+			    									writer.writeAttribute("gunColor", Integer.toHexString(gunColor).toUpperCase());
+			    								}
+			    								if (radarColor != ExecCommands.defaultRadarColor) {
+			    									writer.writeAttribute("radarColor", Integer.toHexString(radarColor).toUpperCase());
+			    								}
+			    								if (scanColor != ExecCommands.defaultScanColor) {
+			    									writer.writeAttribute("scanColor", Integer.toHexString(scanColor).toUpperCase());
+			    								}
+			    							}
+			    							writer.writeAttribute("ver", serialVersionUID);
+			    							if (outputStreamSnapshot != null && outputStreamSnapshot.length() != 0) {
+			    								writer.writeAttribute("out", outputStreamSnapshot);
+			    							}
+
+			    							if (debugProperties != null) {
+			    								writer.startElement("debugProperties"); {
+			    									for (DebugProperty prop : debugProperties) {
+			    										prop.writeXml(writer, options);
+			    									}
+			    								}
+			    								writer.endElement();
+			    							}
+
+			    							((ScoreSnapshot) robotScoreSnapshot).writeXml(writer, options);
+			    						}
+			    						writer.endElement();			    					}
+			    				}
+			    				xmlWriter.endElement();
+			    				
+								text = xmlWriter.toString();
+
+				    		  //lastSnapshot.getSortedTeamScores();
+				    		  //lastSnapshot.getBullets();
+				    		  //lastSnapshot.;
+				    		  /*
+				    		  try {
+				    		  
+				    		  final StringWriter writer = new StringWriter();
+				    		  final XmlWriter xmlWriter = new XmlWriter(writer, true);
+				    		  
+				    		  writer.startElement("turn"); {
+				    				writer.writeAttribute("round", round);
+				    				writer.writeAttribute("turn", turn);
+				    				writer.writeAttribute("ver", serialVersionUID);
+
+				    				writer.startElement("robots"); {
+				    					for (IRobotSnapshot r : robots) {
+				    						((RobotSnapshot) r).writeXml(writer, options);
+				    					}
+				    				}
+				    				writer.endElement();
+
+				    				writer.startElement("bullets"); {
+				    					for (IBulletSnapshot b : bullets) {
+				    						((BulletSnapshot) b).writeXml(writer, options);
+				    					}
+				    				}
+				    				writer.endElement();
+				    			}
+				    			writer.endElement();
+				    	  
+						text = writer.toString();
+
+				    	  } catch (IOException e) {
+								Logger.logError(e);
+							}*/
+				    	  }
+				    	/*  
+							if (lastSnapshot != null) {
+								final StringWriter writer = new StringWriter();
+								final XmlWriter xmlWriter = new XmlWriter(writer, true);
+		
+								try {
+									//((IXmlSerializable) lastSnapshot).writeXml(xmlWriter, null);
+									writer.close();
+								} catch (IOException e) {
+									Logger.logError(e);
+								}
+								text = writer.toString();
+							}*/
+				    	  
+				       String clientCommand = in.readLine();
+				       System.out.println("Client Says :" + clientCommand);
+				       
+				        if (clientCommand==null || clientCommand.equalsIgnoreCase("quit")) {
+				          running = false;
+				        } else {
+				          out.println(text);
+				          out.flush();
+				        }
+				      }
+						System.out.println("Stopping client thread for client : " + clientID);
+						
+			      }
+			    } catch (Exception e) {
+			      e.printStackTrace();
+			    }
+			  }
+			}
+		}
+}

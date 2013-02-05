@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="5" time="1.299" failures="0" name="net.sf.robocode.serialization.RbSerializerTest">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="C:\Sun\SDK\jdk\jre\bin" name="sun.boot.library.path"/>
+    <property value="1.5.0_09-b03" name="java.vm.version"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value=";" name="path.separator"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="US" name="user.country"/>
+    <property value="" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core" name="user.dir"/>
+    <property value="1.5.0_09-b03" name="java.runtime.version"/>
+    <property value="target//test-classes" name="WORKINGDIRECTORY"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core" name="basedir"/>
+    <property value="C:\Sun\SDK\jdk\jre\lib\endorsed" name="java.endorsed.dirs"/>
+    <property value="x86" name="os.arch"/>
+    <property value="C:\Users\Andrei\AppData\Local\Temp\surefirebooter45596.jar" name="surefire.real.class.path"/>
+    <property value="C:\Users\Andrei\AppData\Local\Temp\" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="" name="user.variant"/>
+    <property value="Windows NT (unknown)" name="os.name"/>
+    <property value="Cp1252" name="sun.jnu.encoding"/>
+    <property value="C:\Sun\SDK\jdk\jre\bin;.;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\PROGRA~1\Borland\CBUILD~1\Bin;C:\PROGRA~1\Borland\CBUILD~1\Projects\Bpl;C:\Program Files\JavaFX\javafx-sdk1.3\bin;C:\Program Files\JavaFX\javafx-sdk1.3\emulator\bin;C:\Program Files\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;D:\wamp\bin\mysql\mysql5.1.36\bin;D:\wamp\bin\php\php5.3.0;C:\Program Files\Ruby\bin\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;&quot;D:\Zend\ZendServer\bin&quot;;&quot;D:\Zend\ZendServer\share\ZendFramework\bin&quot;;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Windows Live\Shared;C:\Program Files\TortoiseHg\;C:\Program Files\TortoiseSVN\bin;C:\Sun\SDK\bin" name="java.library.path"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\test-classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.api\target\robocode.jar;C:\Users\Andrei\.m2\repository\org\picocontainer\picocontainer\2.6\picocontainer-2.6.jar;C:\Users\Andrei\.m2\repository\junit\junit\4.5\junit-4.5.jar;" name="surefire.test.class.path"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\test-classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.api\target\robocode.jar;C:\Users\Andrei\.m2\repository\org\picocontainer\picocontainer\2.6\picocontainer-2.6.jar;C:\Users\Andrei\.m2\repository\junit\junit\4.5\junit-4.5.jar;" name="robocode.class.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="6.1" name="os.version"/>
+    <property value="C:\Users\Andrei" name="user.home"/>
+    <property value="GMT" name="user.timezone"/>
+    <property value="sun.awt.windows.WPrinterJob" name="java.awt.printerjob"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="Cp1252" name="file.encoding"/>
+    <property value="Andrei" name="user.name"/>
+    <property value="C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\test-classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.core\target\classes;C:\Users\Andrei\Desktop\robocode-workspace2\robocode.api\target\robocode.jar;C:\Users\Andrei\.m2\repository\org\picocontainer\picocontainer\2.6\picocontainer-2.6.jar;C:\Users\Andrei\.m2\repository\junit\junit\4.5\junit-4.5.jar;" name="java.class.path"/>
+    <property value="true" name="NOSECURITY"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="C:\Sun\SDK\jdk\jre" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="en" name="user.language"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="1.5.0_09" name="java.version"/>
+    <property value="C:\Sun\SDK\jdk\jre\lib\ext" name="java.ext.dirs"/>
+    <property value="C:\Sun\SDK\jdk\jre\lib\rt.jar;C:\Sun\SDK\jdk\jre\lib\i18n.jar;C:\Sun\SDK\jdk\jre\lib\sunrsasign.jar;C:\Sun\SDK\jdk\jre\lib\jsse.jar;C:\Sun\SDK\jdk\jre\lib\jce.jar;C:\Sun\SDK\jdk\jre\lib\charsets.jar;C:\Sun\SDK\jdk\jre\classes" name="sun.boot.class.path"/>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="C:\Users\Andrei\.m2\repository" name="localRepository"/>
+    <property value="\" name="file.separator"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="true" name="TESTING"/>
+    <property value="windows" name="sun.desktop"/>
+    <property value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="net.sf.robocode.serialization.RbSerializerTest" time="0.056" name="empty"/>
+  <testcase classname="net.sf.robocode.serialization.RbSerializerTest" time="0" name="withBullets"/>
+  <testcase classname="net.sf.robocode.serialization.RbSerializerTest" time="0.001" name="withMessages"/>
+  <testcase classname="net.sf.robocode.serialization.RbSerializerTest" time="0.001" name="withProperties"/>
+  <testcase classname="net.sf.robocode.serialization.RbSerializerTest" time="0.582" name="graphics"/>
+</testsuite>

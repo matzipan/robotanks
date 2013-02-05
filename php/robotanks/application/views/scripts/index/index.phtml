@@ -1,0 +1,79 @@
+<?php if(Zend_Auth::getInstance()->getIdentity())  {?>
+<table border='1'>
+Statistics
+<tr>
+<th>Robot Id</th>
+<th>Robot Name</th>
+<th>Total Fights</th>
+<th>Total Wins</th>
+<th>Total Loses</th>
+<th>Win percentage</th>
+<th>Rating</th>
+</tr>
+<!--sunt false -->
+<tr>
+<td>1</td>
+<td>R2D2</td>
+<td>5</td>
+<td>2</td>
+<td>3</td>
+<td>60%</td>
+<td>1023</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>D48</td>
+<td>2</td>
+<td>0</td>
+<td>2</td>
+<td>0%</td>
+<td>998</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>D45</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+<td>1000</td>
+</tr>
+</table>
+Your rating is 1007 with a total of 2 Wins of 7 battles played
+<br><br><br>
+<table border='1'>
+Next Fights
+<tr>
+<th>Fight Id</th>
+<th>Robot Name</th>
+<th>Adversary</th>
+<th>Adversary controller</th>
+<th>Date and hour</th>
+<th>Rating modifiers</th>
+</tr>
+<!--sunt false -->
+<tr>
+<td>8</td>
+<td>R2D2</td>
+<td>Matzipan</td>
+<td>Matzipan</td>
+<td>25 March 12:35PM</td>
+<td>+5/-8</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>D48</td>
+<td>Matzipan2.0</td>
+<td>Matzipan</td>
+<td>25 March 13:00PM</td>
+<td>+5/-1</td>
+</tr>
+
+</table>
+<?php } else { ?>
+<h2>Welcome!</h2>
+Please login in order to continue. User: redddragon Password: 741147
+<?php } ?>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="libs/jWebSocketCommon-0.10.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/jWebSocketClientAPI-0.10.jar"/>
+	<classpathentry kind="lib" path="libs/jWebSocketJavaSEClient-0.10.jar"/>
+	<classpathentry kind="lib" path="libs/jWebSocketSamples-0.10.jar"/>
+	<classpathentry kind="lib" path="libs/jWebSocketServer-0.10.jar"/>
+	<classpathentry kind="lib" path="libs/jWebSocketServerAPI-0.10.jar"/>
+	<classpathentry kind="lib" path="libs/jWebSocketSwingGUI-0.10.jar"/>
+	<classpathentry kind="output" path="compiled"/>
+</classpath>

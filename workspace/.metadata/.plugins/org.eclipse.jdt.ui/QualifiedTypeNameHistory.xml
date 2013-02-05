@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.jwebsocket.logging.Logging"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.jwebsocket.config.JWebSocketCommonConstants"/>
+<fullyQualifiedTypeName name="org.jwebsocket.config.JWebSocketClientConstants"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.jwebsocket.api.WebSocketClientTokenListener"/>
+<fullyQualifiedTypeName name="org.jwebsocket.listener.WebSocketServerTokenListener"/>
+</qualifiedTypeNameHistroy>
